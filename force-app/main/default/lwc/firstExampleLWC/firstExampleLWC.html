@@ -1,0 +1,12 @@
+<template>
+    <p style="color: red !important;">Hello World</p>
+
+    <lightning-input name="fname" onchange={handChange} value={myfname}></lightning-input><br>
+    <lightning-input name="lname" onchange={handChange} value={mylname}></lightning-input><br>
+    
+    
+    {myfname} <br>
+    <lightning-formatted-text value={myfname}></lightning-formatted-text> <br>
+
+<lightning-formatted-text value={mylname}></lightning-formatted-text> <br>
+</template>
